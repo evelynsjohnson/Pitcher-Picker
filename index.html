@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitcher Picker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a2a1a;
+            color: #e8f4ea;
+            overflow: hidden;
+            user-select: none;
+        }
+        #app {
+            width: 390px;
+            height: 844px;
+            margin: 0 auto;
+            position: relative;
+            background: #0a2a1a;
+        }
+        .screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+        .screen.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Screens will be inserted here by JavaScript -->
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
