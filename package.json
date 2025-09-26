@@ -1,5 +1,7 @@
 {
   "name": "pitcher-picker",
+  "version": "1.0.0",
+  "description": "Carnivorous plant clicker game",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -8,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0"
   }
 }
